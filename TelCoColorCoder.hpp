@@ -3,7 +3,7 @@
 
 #include <iostream>
 #include <assert.h>
-#include "TelCoColorCoderEnum.hpp"
+// #include "TelCoColorCoderEnum.hpp"
 
 namespace TelCoColorCoder
 {

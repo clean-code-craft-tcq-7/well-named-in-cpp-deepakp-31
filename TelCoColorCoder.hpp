@@ -4,9 +4,6 @@
 #include <iostream>
 #include <assert.h>
 #include <string>
-// #include "TelCoColorCoderEnum.hpp"
-
-// #include "TelCoColorCoderTest.hpp"
 
 namespace TelCoColorCoder
 {
@@ -32,6 +29,8 @@ namespace TelCoColorCoder
 
   ColorPair GetColorFromPairNumber(int pairNumber);
   int GetPairNumberFromColor(MajorColor major, MinorColor minor);  
+  
+  //Print the Reference Manual for Wiring
   void printWiringManual();
 
 }

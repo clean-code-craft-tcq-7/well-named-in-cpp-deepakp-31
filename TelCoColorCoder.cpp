@@ -39,7 +39,7 @@ int TelCoColorCoder::GetPairNumberFromColor(TelCoColorCoder::MajorColor major, T
     return major * numberOfMinorColors + minor + 1;
 }
 
-void printWiringManual()
+void TelCoColorCoder::printWiringManual()
 {
     for (int pairNum = 1; pairNum < 26; pairNum++)
     {

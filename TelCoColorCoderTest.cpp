@@ -1,6 +1,6 @@
 #include "TelCoColorCoderTest.hpp"
 
-void testNumberToPaircheck(int pairNumber,
+void testNumberToPair(int pairNumber,
                       TelCoColorCoder::MajorColor expectedMajor,
                       TelCoColorCoder::MinorColor expectedMinor)
 {
@@ -11,7 +11,7 @@ void testNumberToPaircheck(int pairNumber,
     assert(colorPair.getMinor() == expectedMinor);
 }
 
-void testPairToNumbercheck(
+void testPairToNumber(
     TelCoColorCoder::MajorColor major,
     TelCoColorCoder::MinorColor minor,
     int expectedPairNumber)

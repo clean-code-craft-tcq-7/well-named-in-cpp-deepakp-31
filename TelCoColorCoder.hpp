@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <assert.h>
+#include <string>
 // #include "TelCoColorCoderEnum.hpp"
 
 #include "TelCoColorCoderTest.hpp"

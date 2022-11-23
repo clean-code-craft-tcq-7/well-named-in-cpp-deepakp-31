@@ -29,6 +29,12 @@ int main() {
     testPairToNumber(TelCoColorCoder::BLACK, TelCoColorCoder::ORANGE, 12);
     testPairToNumber(TelCoColorCoder::VIOLET, TelCoColorCoder::SLATE, 25);
   
+    testNumberToPaircheck(4, TelCoColorCoder::WHITE, TelCoColorCoder::BROWN);
+    testNumberToPaircheck(5, TelCoColorCoder::WHITE, TelCoColorCoder::SLATE);
+
+    testPairToNumbercheck(TelCoColorCoder::BLACK, TelCoColorCoder::ORANGE, 12);
+    testPairToNumbercheck(TelCoColorCoder::VIOLET, TelCoColorCoder::SLATE, 25);
+  
     TelCoColorCoder::printWiringManual();
 
     return 0;

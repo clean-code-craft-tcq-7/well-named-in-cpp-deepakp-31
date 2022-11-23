@@ -3,11 +3,11 @@
 
 #include "TelCoColorCoder.hpp"
 
-void testNumberToPaircheck(int pairNumber,
+void testNumberToPair(int pairNumber,
                       TelCoColorCoder::MajorColor expectedMajor,
                       TelCoColorCoder::MinorColor expectedMinor);
 
-void testPairToNumbercheck(
+void testPairToNumber(
     TelCoColorCoder::MajorColor major,
     TelCoColorCoder::MinorColor minor,
     int expectedPairNumber);

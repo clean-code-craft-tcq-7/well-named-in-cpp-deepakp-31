@@ -2,6 +2,9 @@
 #define TEL_COCOLOR_CODER_TEST_HPP
 #include "TelCoColorCoder.hpp"
 
+
+void testNumberToPair1(int pairNumber, TelCoColorCoder::MajorColor expectedMajor, TelCoColorCoder::MinorColor expectedMinor);
+
 void testNumberToPair(int pairNumber,
                       TelCoColorCoder::MajorColor expectedMajor,
                       TelCoColorCoder::MinorColor expectedMinor);

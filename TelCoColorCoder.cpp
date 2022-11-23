@@ -44,6 +44,6 @@ void TelCoColorCoder::printWiringManual()
     for (int pairNum = 1; pairNum < 26; pairNum++)
     {
         TelCoColorCoder::ColorPair colorPair = TelCoColorCoder::GetColorFromPairNumber(pairNum);
-        std::cout << "Colour pair: " << colorPair.ToString() << "\t\t->\tPair Number: " << pairNum<< std::endl;
+        std::cout << "Colour pair: " << colorPair.ToString() << "\t->\tPair Number: " << pairNum<< std::endl;
     }
 }

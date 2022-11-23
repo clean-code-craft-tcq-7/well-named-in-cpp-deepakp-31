@@ -1,6 +1,3 @@
-#ifndef TEL_COCOLOR_CODER_HPP
-#define TEL_COCOLOR_CODER_HPP
-
 #include "TelCoColorCoderTest.hpp"
 
 void testNumberToPaircheck(int pairNumber,
@@ -24,4 +21,3 @@ void testPairToNumbercheck(
     assert(pairNumber == expectedPairNumber);
 }
 
-#endif

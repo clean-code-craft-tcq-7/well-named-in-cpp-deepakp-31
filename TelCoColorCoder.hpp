@@ -5,6 +5,8 @@
 #include <assert.h>
 // #include "TelCoColorCoderEnum.hpp"
 
+#include "TelCoColorCoderTest.hpp"
+
 namespace TelCoColorCoder
 {
 

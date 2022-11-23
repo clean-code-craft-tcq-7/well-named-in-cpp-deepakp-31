@@ -1,29 +1,7 @@
 #include "TelCoColorCoder.hpp"
 #include "TelCoColorCoderTest.hpp"
 
-
-void testNumberToPair(int pairNumber,
-                      TelCoColorCoder::MajorColor expectedMajor,
-                      TelCoColorCoder::MinorColor expectedMinor)
-{
-    TelCoColorCoder::ColorPair colorPair =
-        TelCoColorCoder::GetColorFromPairNumber(pairNumber);
-    std::cout << "Got pair " << colorPair.ToString() << std::endl;
-    assert(colorPair.getMajor() == expectedMajor);
-    assert(colorPair.getMinor() == expectedMinor);
-}
-
-void testPairToNumber(
-    TelCoColorCoder::MajorColor major,
-    TelCoColorCoder::MinorColor minor,
-    int expectedPairNumber)
-{
-    int pairNumber = TelCoColorCoder::GetPairNumberFromColor(major, minor);
-    std::cout << "Got pair number " << pairNumber << std::endl;
-    assert(pairNumber == expectedPairNumber);
-}
-
-
+//Driver function
 int main() {
     testNumberToPair(4, TelCoColorCoder::WHITE, TelCoColorCoder::BROWN);
     testNumberToPair(5, TelCoColorCoder::WHITE, TelCoColorCoder::SLATE);
@@ -31,12 +9,7 @@ int main() {
     testPairToNumber(TelCoColorCoder::BLACK, TelCoColorCoder::ORANGE, 12);
     testPairToNumber(TelCoColorCoder::VIOLET, TelCoColorCoder::SLATE, 25);
   
-    testNumberToPaircheck(4, TelCoColorCoder::WHITE, TelCoColorCoder::BROWN);
-    testNumberToPaircheck(5, TelCoColorCoder::WHITE, TelCoColorCoder::SLATE);
-
-    testPairToNumbercheck(TelCoColorCoder::BLACK, TelCoColorCoder::ORANGE, 12);
-    testPairToNumbercheck(TelCoColorCoder::VIOLET, TelCoColorCoder::SLATE, 25);
-  
+    //Print Function
     TelCoColorCoder::printWiringManual();
 
     return 0;

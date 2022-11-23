@@ -6,7 +6,7 @@
 #include <string>
 // #include "TelCoColorCoderEnum.hpp"
 
-#include "TelCoColorCoderTest.hpp"
+// #include "TelCoColorCoderTest.hpp"
 
 namespace TelCoColorCoder
 {

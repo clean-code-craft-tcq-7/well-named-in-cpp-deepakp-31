@@ -3,25 +3,10 @@
 
 #include <iostream>
 #include <assert.h>
+#include "TelCoColorCoderEnum.hpp"
 
 namespace TelCoColorCoder
 {
-  enum MajorColor
-  {
-    WHITE,
-    RED,
-    BLACK,
-    YELLOW,
-    VIOLET
-  };
-  enum MinorColor
-  {
-    BLUE,
-    ORANGE,
-    GREEN,
-    BROWN,
-    SLATE
-  };
 
   class ColorPair
   {
